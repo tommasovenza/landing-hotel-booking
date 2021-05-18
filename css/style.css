@@ -28,7 +28,8 @@ body {
     width: 30%;
     justify-content: space-between;
 }
-.top-navbar__awards--detail {
+.top-navbar__awards--detail,
+.top-navbar__content--detail {
     display: flex;
     align-items: center;
 }
