@@ -1,3 +1,4 @@
+/* general CSS Rules */
 * {
     margin: 0;
     padding: 0;
@@ -6,6 +7,9 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+/* end General CSS Rules */
+
+/* NavTop */
 .container {
     width: 87%;
     margin: 0 auto;
@@ -35,4 +39,45 @@ body {
 }
 .top-navbar__awards--detail i {
     margin-right: 10px;
+}
+/* end NavTop */
+
+/* main Navbar */
+.main-nav {
+    background-color: #fff;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.main-nav__logo p {
+    font-size: 24px;
+    font-family: 'Luckiest Guy', cursive;
+}
+.main-nav__logo span {
+    color: #EC1F46;
+}
+
+.main-nav__input {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    display: flex;
+}
+.main-nav__input input {
+    border: none;
+    margin: 10px;
+    font-family: 'Mulish', sans-serif;
+}
+.main-nav__input i {
+    background-color:#EC1F46;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
