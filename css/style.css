@@ -3,3 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Mulish', sans-serif;
+}
+.container {
+    width: 87%;
+    margin: 0 auto;
+}
+.top-navbar {
+    background-color: #F5FAFE;
+    color: #333;
+}
+.top-navbar span {
+    font-size: 10px;
+}
+.top-navbar__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.top-navbar__awards {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+.top-navbar__awards--detail {
+    display: flex;
+    align-items: center;
+}
+.top-navbar__awards--detail i {
+    margin-right: 10px;
+}
