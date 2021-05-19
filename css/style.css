@@ -7,6 +7,9 @@
 body {
     font-family: 'Mulish', sans-serif;
 }
+ul li {
+    list-style-type: none;
+}
 /* end General CSS Rules */
 
 /* NavTop */
@@ -62,11 +65,14 @@ body {
     border: 1px solid #ccc;
     border-radius: 7px;
     display: flex;
+    background-color: #F5FAFE;
 }
 .main-nav__input input {
     border: none;
     margin: 10px;
     font-family: 'Mulish', sans-serif;
+    width: 250px;
+    background-color: #F5FAFE;
 }
 .main-nav__input i {
     background-color:#EC1F46;
@@ -75,9 +81,52 @@ body {
     color: #fff;
     padding: 10px 20px;
 }
-
+.main-nav__shop {
+    position: relative;
+}
+.main-nav__shop i {
+    font-size: 25px;
+}
+.main-nav__shop--circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color:#EC1F46;
+    color: #fff;
+    position: absolute;
+    top: -7px;
+    right: -12px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+.main-nav__profile {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-around;
+}
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+/* navbar bottom */
+.navbar-bottom {
+    background-color: #0A223D;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+.navbar-bottom a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.navbar-bottom__menu {
+    display: flex;
+    justify-content: space-between;
 }
