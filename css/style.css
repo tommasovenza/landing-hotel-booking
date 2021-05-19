@@ -130,3 +130,12 @@ ul li {
     display: flex;
     justify-content: space-between;
 }
+.breadcrumb {
+    height: 60px;
+    background-color: #F5FAFE;
+    display: flex;
+    align-items: center;
+}
+.breadcrumb span {
+    font-size: 10px;
+}
