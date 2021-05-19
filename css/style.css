@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body, h1 {
     font-family: 'Mulish', sans-serif;
 }
 ul li {
@@ -14,7 +14,7 @@ ul li {
 
 /* NavTop */
 .container {
-    width: 87%;
+    width: 78%;
     margin: 0 auto;
 }
 .top-navbar {
@@ -52,7 +52,6 @@ ul li {
     display: flex;
     align-items: center;
 }
-
 .main-nav__logo p {
     font-size: 24px;
     font-family: 'Luckiest Guy', cursive;
@@ -60,7 +59,6 @@ ul li {
 .main-nav__logo span {
     color: #EC1F46;
 }
-
 .main-nav__input {
     border: 1px solid #ccc;
     border-radius: 7px;
@@ -111,6 +109,7 @@ ul li {
     justify-content: space-between;
     align-items: center;
 }
+/* main navbar end */
 
 /* navbar bottom */
 .navbar-bottom {
@@ -130,6 +129,8 @@ ul li {
     display: flex;
     justify-content: space-between;
 }
+
+/* breadcrumb */
 .breadcrumb {
     height: 60px;
     background-color: #F5FAFE;
@@ -138,4 +139,99 @@ ul li {
 }
 .breadcrumb span {
     font-size: 10px;
+}
+/* breadcrumb ending */
+
+/* main hotel section */
+.hotel {
+    height: 100px;
+    background-color: #F5FAFE;
+    display: flex;
+    align-items: center;
+}
+.hotel__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotel__heading--stars {
+    color: #F2994A;
+}
+.hotel__heading--title {
+    display: flex;
+    align-items: center;
+}
+.hotel__heading--title h1 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.hotel__heading--title span {
+    color: #fff;
+    background-color: #EC1F46;
+    padding: 3px 15px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.hotel__heading--details span {
+    font-size: 12px;
+}
+.hotel__heading--right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    background-color: #EC1F46;
+    padding: 10px 12px;
+    border-radius: 9px;
+}
+/* main hotel ending */
+
+/* slider */
+.slider {
+    display: flex;
+    justify-content: space-between;
+}
+.slider__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider__info--details {
+    width: 350px;
+    height: 210px;
+    background-color: #0A223D;
+    color: #fff;
+    border-radius: 10px;
+    padding: 25px;
+}
+.slider__info--details span {
+    font-size: 10px;
+}
+.slider__info--details h3 {
+    margin: 5px 0;
+}
+.wrapper-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.text-right {
+    display: flex;
+    flex-direction: column;
+}
+.wrapper-anchor {
+    width: 100%;
+    background-color: #EC1F46;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.wrapper-anchor a {
+   text-decoration: none;
+   color: #fff;
 }
