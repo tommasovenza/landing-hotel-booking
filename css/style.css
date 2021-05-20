@@ -351,8 +351,18 @@ ul li {
     font-size: 13px;
     font-weight: 600;
 }
-/* 
+/* force width's cards to make them does not change layouts based on their contents  */
 .test {
-    width: calc(100% / 3);
-    padding: 0 70px;
-} */
+    width: 265px;
+}
+.decoration {
+    position: relative;
+}
+.decoration::after {
+    content:"------------------------------------------------------------------------------------";
+    letter-spacing: 6px; /* Use letter-spacing to increase space between dots*/
+    color: #E0E0E0;
+    position: absolute;
+    bottom: 0;
+    max-width: 95%;
+}
