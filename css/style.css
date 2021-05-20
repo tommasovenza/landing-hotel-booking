@@ -60,7 +60,6 @@ ul li {
     color: #EC1F46;
 }
 .main-nav__input {
-    border: 1px solid #ccc;
     border-radius: 7px;
     display: flex;
     background-color: #F5FAFE;
@@ -84,6 +83,9 @@ ul li {
 }
 .main-nav__shop i {
     font-size: 25px;
+    position: absolute;
+    top: -14px;
+    right: -60px;
 }
 .main-nav__shop--circle {
     width: 20px;
@@ -92,8 +94,8 @@ ul li {
     background-color:#EC1F46;
     color: #fff;
     position: absolute;
-    top: -7px;
-    right: -12px;
+    top: -22px;
+    right: -73px;
     text-align: center;
     font-size: 14px;
     font-weight: normal;
@@ -223,13 +225,19 @@ ul li {
     display: flex;
     flex-direction: column;
 }
+.text-right span {
+    margin: 5px 0;
+}
+.text-right h3 {
+    margin-top: 28px;
+}
 .wrapper-anchor {
     width: 100%;
     background-color: #EC1F46;
     text-align: center;
     padding: 10px;
     margin-top: 10px;
-    border-radius: 7px;
+    border-radius: 4px;
 }
 .wrapper-anchor a {
    text-decoration: none;
