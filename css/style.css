@@ -16,6 +16,7 @@ ul li {
 .container {
     width: 78%;
     margin: 0 auto;
+    position: relative;
 }
 .top-navbar {
     background-color: #F5FAFE;
@@ -283,7 +284,6 @@ ul li {
 
 /* package summery */
 .package-summary h2 {
-    margin: 60px 0 30px 0;
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
@@ -481,4 +481,84 @@ ul li {
 }
 .margin-top {
     margin-top: 30px;
+}
+.reviews {
+    background-color: #F5FAFE;
+    padding: 50px 0 70px 0;
+}
+.reviews h2 {
+    font-size: 36px;
+    margin-bottom: 100px;
+}
+.carousel {
+    background-color: #fff;
+    padding: 0 90px 30px 90px;
+    position: relative;
+    border-radius: 7px;
+}
+.carousel h4 {
+    color: #EC1F46;
+    font-size: 12px;
+    margin: 50px 0 10px 0;
+}
+.carousel i {
+    font-size: 8px;
+    margin: 0 1px;
+}
+.carousel p {
+    font-size: 12px;
+    font-weight: 400;
+    /* width: 537px; */
+    text-align: justify;
+}
+.carousel span {
+    font-size: 10px;
+    font-weight: 400;
+}
+.carousel .hotel__heading--stars {
+    display: flex;
+    margin: 5px 0 30px 0;
+}
+.carousel__image {
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.carousel__text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.wrapper-carousel {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 992px;
+}
+.carousel__left,
+.carousel__right {
+    font-size: 30px;
+    color: #828282;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.carousel__left {
+    top: 50%;
+    left: 0;
+}
+.carousel__right {
+    top: 50%;
+    right: 0;
+}
+.carousel__apostrophe-left {
+    position: absolute;
+    left: -32px;
+    top: 10px;
+}
+.carousel__apostrophe-right {
+    position: absolute;
+    right: -35px;
+    top: 115px;
+    transform: rotate(180deg);
 }
