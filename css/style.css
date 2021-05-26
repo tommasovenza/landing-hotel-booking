@@ -629,3 +629,58 @@ ul li {
     font-size: 12px;
     font-weight: bold;
 }
+
+/* other activities */
+.other-activities {
+    padding: 50px 0;
+    color: #fff;
+}
+.other-activities h2 {
+    text-transform: uppercase;
+    margin: 50px 0 50px 15px;
+    color: black;
+
+}
+.wrapper-activities {
+    display: flex;
+}
+.single-act {
+    flex-basis: 255px;
+    height: 255px;
+    position: relative;
+    margin: 0 10px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.sigle-act__text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+.sigle-act__text .btn {
+    width: 100px;
+    height: 30px;
+    padding: 0;
+}
+.sigle-act__text .btn a {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 30px;
+}
+.background {
+    background-image: url('../img/Bg.png');
+}
+.background-2 {
+    background-image: url('../img/Bg2.png');
+}
+.background-3 {
+    background-image: url('../img/Bg3.png');
+}
+.background-4 {
+    background-image: url('../img/Bg4.png');
+}
+.background, .background-2, .background-3, .background-4 {
+    background-size: cover;
+}
