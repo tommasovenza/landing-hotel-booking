@@ -287,6 +287,7 @@ ul li {
     font-weight: bold;
     font-size: 24px;
     text-transform: uppercase;
+    margin: 50px 0;
 }
 .wrapper-package-offerts {
     display: flex;
@@ -778,8 +779,10 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.footer-main-right__wrap_input div {
+    flex-basis: calc(95% / 2);
+}
 .footer-main-right__wrap_input input {
-    flex-basis: calc(100% / 2);
     margin-bottom: 15px;
 }
 .footer-main-right__wrap_input input,
@@ -789,8 +792,6 @@ textarea {
     font-family: 'Mulish', sans-serif;
     border: none;
     border-radius: 4px;
-}
-textarea {
     width: 100%;
 }
 .footer-main-right__wrap__bottom {
